@@ -1,0 +1,16 @@
+{
+  "name": "range-day-server",
+  "version": "1.0.0",
+  "description": "Real-time multiplayer relay for Range Day (WebSocket rooms, snapshot relay, hit/death routing, scores).",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
